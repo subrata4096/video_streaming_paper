@@ -1,0 +1,153 @@
+\documentclass{sig-alternate.noss}
+\renewcommand{\baselinestretch}{0.88}%was 0.94
+
+% The following \documentclass options may be useful:
+
+% preprint      Remove this option only once the paper is in final form.
+% 10pt          To set in 10-point type instead of 9-point.
+% 11pt          To set in 11-point type instead of 9-point.
+% authoryear    To obtain author/year citation style instead of numeric.
+
+%\graphicspath{{./figures/}}
+
+  
+%\graphicspath{{./figures/}}
+\DeclareGraphicsExtensions{.png,.eps}
+
+\usepackage{epstopdf}
+\usepackage{eqparbox}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{epsfig,endnotes}
+\usepackage{xspace}
+\usepackage{graphicx}
+%\usepackage{listings}
+\usepackage{textcomp}
+\usepackage{url}
+\usepackage{hyperref}
+%\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{float}
+\usepackage{xcolor}
+%\usepackage{fancyvrb}
+%\usepackage{slashbox}
+\usepackage{cite}
+%\usepackage{comment}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\newcommand{\myname}{\textsc{VIDalizer}\xspace}
+
+\newcommand{\ie}{\emph{i.e.,}\xspace}
+\newcommand{\eg}{\emph{e.g.,}\xspace}
+
+\makeatletter
+\let\@copyrightspace\relax
+\makeatother
+
+\setcounter{topnumber}{3}
+\def\topfraction{.9}
+\setcounter{bottomnumber}{3}
+\def\bottomfraction{.9}
+\setcounter{totalnumber}{4}
+\def\textfraction{.1}
+\def\floatpagefraction{.9}
+\setcounter{dbltopnumber}{4}
+\def\dbltopfraction{.9}
+\def\dblbottomfraction{.9}
+\def\dbltextefraction{.1}
+\def\dblfloatpagefraction{.9}
+
+\begin{document}
+
+\special{papersize=8.5in,11in}
+\setlength{\pdfpageheight}{\paperheight}
+\setlength{\pdfpagewidth}{\paperwidth}
+
+
+%\conferenceinfo{CONF 'yy}{Month d--d, 20yy, City, ST, Country} 
+%\copyrightyear{20yy} 
+%\copyrightdata{978-1-nnnn-nnnn-n/yy/mm} 
+%\doi{nnnnnnn.nnnnnnn}
+
+% Uncomment one of the following two, if you are not going for the 
+% traditional copyright transfer agreement.
+
+%\exclusivelicense                % ACM gets exclusive license to publish, 
+                                  % you retain copyright
+
+%\permissiontopublish             % ACM gets nonexclusive license to publish
+                                  % (paid open-access papers, 
+                                  % short abstracts)
+
+%\titlebanner{banner above paper title}        % These are ignored unless
+%\preprintfooter{short description of paper}   % 'preprint' option specified.
+
+
+\title{Study of energy efficiency of mobile video streaming protocols}
+
+%\subtitle{Subtitle Text, if any}
+
+%\authorinfo{Author names elided}
+\author{
+\alignauthor
+ 	Ashiwan Sivakumar, Subrata Mitra, Sambit Mishra\\
+\affaddr{School of Electrical and Computer Engineering, Purdue University}
+         \email{\{asivakum, mitra4, sambitmishra\}@purdue.edu}          
+}
+
+\maketitle
+
+
+
+
+%
+\input{sec_abstract}
+%\input{sec_introduction}
+%\input{sec_arch}
+%\input{subsec_approach}
+%\input{subsec_discussions}
+%\input{sec_implementation}
+%\input{sec_evaluation}
+\input{sec_related_work}
+%\input{sec_conclusions}
+
+
+%\appendix
+%\section{Appendix Title}
+
+%This is the text of the appendix, if you need one.
+
+%\acks
+
+%Acknowledgments, if needed.
+
+% We recommend abbrvnat bibliography style.
+
+%{\footnotesize 
+%\bibliography{biblio}
+%}
+
+%\bibliographystyle{abbrvnat}
+
+% The bibliography should be embedded for final submission.
+
+%\begin{thebibliography}{}
+%\softraggedright
+
+%\bibliographystyle{abbrvnat}
+\bibliographystyle{abbrv}
+{\scriptsize
+%\footnotesize 
+\bibliography{biblio}
+}
+
+%\end{thebibliography}
+
+
+\end{document}
+
+
+
