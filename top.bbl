@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+
+\bibitem{balasubramanian_imc09}
+N.~Balasubramanian, A.~Balasubramanian, and A.~Venkataramani.
+\newblock Energy consumption in mobile phones: A measurement study and
+  implications for network applications.
+\newblock In {\em IMC}, 2009.
+
+\bibitem{ucsd_wcnc}
+R.~Guruprasad and S.~Dey.
+\newblock Rate adaptation and base station reconfiguration for battery
+  efficient video download.
+\newblock In {\em IEEE WCNC}, 2013.
+
+\bibitem{mohapatra_mm03}
+S.~Mohapatra, R.~Cornea, N.~Dutt, A.~Nicolau, and N.~Venkatasubramanian.
+\newblock Integrated power management for video streaming to mobile handheld
+  devices.
+\newblock In {\em MULTIMEDIA}, 2003.
+
+\bibitem{mobiarch}
+S.~V. Rajaraman, M.~Siekkinen, V.~Virkki, and J.~Torsner.
+\newblock Bundling frames to save energy while streaming video from lte mobile
+  device.
+\newblock In {\em MobiArch}, 2013.
+
+\bibitem{movid}
+M.~Siekkinen, M.~A. Hoque, J.~K. Nurminen, and M.~Aalto.
+\newblock Streaming over 3g and lte: How to save smartphone energy in radio
+  access network-friendly way.
+\newblock In {\em MoVid}, 2013.
+
+\end{thebibliography}
