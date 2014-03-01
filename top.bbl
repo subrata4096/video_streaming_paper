@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{balasubramanian_imc09}
 N.~Balasubramanian, A.~Balasubramanian, and A.~Venkataramani.
@@ -41,11 +41,24 @@ J.~Huang, F.~Qian, Y.~Guo, Y.~Zhou, Q.~Xu, Z.~M. Mao, S.~Sen, and
 \newblock In {\em Proceedings of the ACM SIGCOMM 2013 conference on SIGCOMM},
   pages 363--374. ACM, 2013.
 
+\bibitem{li2012greentube}
+X.~Li, M.~Dong, Z.~Ma, and F.~C. Fernandes.
+\newblock Greentube: power optimization for mobile videostreaming via dynamic
+  cache management.
+\newblock In {\em Proceedings of the 20th ACM international conference on
+  Multimedia}, pages 279--288. ACM, 2012.
+
 \bibitem{mohapatra_mm03}
 S.~Mohapatra, R.~Cornea, N.~Dutt, A.~Nicolau, and N.~Venkatasubramanian.
 \newblock Integrated power management for video streaming to mobile handheld
   devices.
 \newblock In {\em MULTIMEDIA}, 2003.
+
+\bibitem{qian2011demo}
+F.~Qian, Z.~Wang, A.~Gerber, Z.~Mao, S.~Sen, and O.~Spatscheck.
+\newblock Demo: mobile application resource optimizer (aro).
+\newblock In {\em Proceedings of the 9th international conference on Mobile
+  systems, applications, and services}, pages 369--370. ACM, 2011.
 
 \bibitem{mobiarch}
 S.~V. Rajaraman, M.~Siekkinen, V.~Virkki, and J.~Torsner.
