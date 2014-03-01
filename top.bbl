@@ -6,11 +6,32 @@ N.~Balasubramanian, A.~Balasubramanian, and A.~Venkataramani.
   implications for network applications.
 \newblock In {\em IMC}, 2009.
 
+\bibitem{deng2012traffic}
+S.~Deng and H.~Balakrishnan.
+\newblock Traffic-aware techniques to reduce 3g/lte wireless energy
+  consumption.
+\newblock In {\em Proceedings of the 8th international conference on Emerging
+  networking experiments and technologies}, pages 181--192. ACM, 2012.
+
 \bibitem{ucsd_wcnc}
 R.~Guruprasad and S.~Dey.
 \newblock Rate adaptation and base station reconfiguration for battery
   efficient video download.
 \newblock In {\em IEEE WCNC}, 2013.
+
+\bibitem{hoque2013using}
+M.~A. Hoque, M.~Siekkinen, and J.~K. Nurminen.
+\newblock Using crowd-sourced viewing statistics to save energy in wireless
+  video streaming.
+\newblock In {\em Proceedings of the 19th annual international conference on
+  Mobile computing \& networking}, pages 377--388. ACM, 2013.
+
+\bibitem{huang2012close}
+J.~Huang, F.~Qian, A.~Gerber, Z.~M. Mao, S.~Sen, and O.~Spatscheck.
+\newblock A close examination of performance and power characteristics of 4g
+  lte networks.
+\newblock In {\em Proceedings of the 10th international conference on Mobile
+  systems, applications, and services}, pages 225--238. ACM, 2012.
 
 \bibitem{mohapatra_mm03}
 S.~Mohapatra, R.~Cornea, N.~Dutt, A.~Nicolau, and N.~Venkatasubramanian.
