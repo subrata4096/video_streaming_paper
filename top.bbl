@@ -33,6 +33,14 @@ J.~Huang, F.~Qian, A.~Gerber, Z.~M. Mao, S.~Sen, and O.~Spatscheck.
 \newblock In {\em Proceedings of the 10th international conference on Mobile
   systems, applications, and services}, pages 225--238. ACM, 2012.
 
+\bibitem{huang2013depth}
+J.~Huang, F.~Qian, Y.~Guo, Y.~Zhou, Q.~Xu, Z.~M. Mao, S.~Sen, and
+  O.~Spatscheck.
+\newblock An in-depth study of lte: Effect of network protocol and application
+  behavior on performance.
+\newblock In {\em Proceedings of the ACM SIGCOMM 2013 conference on SIGCOMM},
+  pages 363--374. ACM, 2013.
+
 \bibitem{mohapatra_mm03}
 S.~Mohapatra, R.~Cornea, N.~Dutt, A.~Nicolau, and N.~Venkatasubramanian.
 \newblock Integrated power management for video streaming to mobile handheld
