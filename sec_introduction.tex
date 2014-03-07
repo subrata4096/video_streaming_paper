@@ -1,2 +1,13 @@
 \section{Introduction}
+Video dominant in internet traffic. Increasing trends ~\cite{}
+Users prefer mobile devices ~\cite{} - fueled by increased throughput and reduced latency (LTE performs similar to Wi-Fi ~\cite{LTEPaper}).
+Cost of content delivery is also reducing. Popular mobile content providers - Netflix, youtube, Hulu. 
+Subscription based model - optimize performance by adapting to client conditions - e.g. adaptive bit rate. 
+More preferance given to HTTP than specialized video streaming protocols - easy adaptability.  
 
+ 
+In LTE/3G networks RRC state plays a critical role in determining performance and energy. Various timers are set by network operators to trade-off packet latency for radio energy savings. RRC state diagram ~\ref{fig:LTERRCState} and ~\ref{fig:3GRRCState}. Multiple power conserving states - DCH, FACH in 3G and Short, Long DRX in LTE. Promoting from low power state to high power consumes large power and takes time.    
+
+Applications should intelligently schedule data transfer to obtain the best possible performance, energy and cost savings. Relevant metrics for video streaming - buffering rate, join time, playback time. Radio consumes significant device power. For better user experience, limit the join time and playback time by buffering aggressively. But to save on cost the application should buffer sparsely. Optimizing energy consumption requires in-depth understanding of the interaction of the application with the RRC state transition.Existing services aim at improving performance - esp reducing the playback time. Some of the popular streaming services use DASH - Dynamic adaptive streaming using HTTP. Video is sent in chunks depending on user interaction and buffer drain rate. It is not clear whether such adaptive bit rate approach, chunking would provide energy savings as they are not aware of the RRC state transitions.           
+
+In this work we perform study to characterize the power characteristics of video streaming using popular streaming services like Netflix, Youtube and Hulu. The study is especially important and relavant in the context of mobile networks - 3G and 4G inorder to design cellular-friendly streaming services. The success of the project lies on jointly optimizing energy, user experience and data cost for video streaming in LTE, 3G.      
