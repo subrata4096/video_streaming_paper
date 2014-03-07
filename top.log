@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.11)  7 MAR 2014 16:19
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.11)  7 MAR 2014 16:27
 entering extended mode
 **C:/Users/hp/Documents/GitHub/video_streaming_paper/top.tex
 (C:/Users/hp/Documents/GitHub/video_streaming_paper/top.tex
@@ -513,4 +513,63 @@ LaTeX Info: Redefining \pageref on input line 63.
 LaTeX Info: Redefining \nameref on input line 63.
 
 (C:\Users\hp\Documents\GitHub\video_streaming_paper\top.out)
-(C:\Users\hp\Documents\GitHub\video_streamin
+(C:\Users\hp\Documents\GitHub\video_streaming_paper\top.out)
+\@outlinefile=\write4
+
+(C:\Users\hp\Documents\GitHub\video_streaming_paper\sec_abstract.tex)
+(C:\Users\hp\Documents\GitHub\video_streaming_paper\sec_introduction.tex)
+(C:\Users\hp\Documents\GitHub\video_streaming_paper\sec_related_work.tex)
+(C:\Users\hp\Documents\GitHub\video_streaming_paper\top.bbl [1{C:/ProgramData/M
+iKTeX/2.9/pdftex/config/pdftex.map}
+
+
+Non-PDF special ignored!
+
+]
+Underfull \hbox (badness 3323) in paragraph at lines 58--62
+[]\OT1/ptm/m/n/8 F. Qian, Z. Wang, A. Ger-ber, Z. Mao, S. Sen, and
+ []
+
+)
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
+[2
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
+ (C:\Users\hp\Documents\GitHub\video_streaming_paper\top.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
+Package rerunfilecheck Info: File `top.out' has not changed.
+(rerunfilecheck)             Checksum: C3602E15C8811CCF7D952C4546805068;143.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
+ ) 
+Here is how much of TeX's memory you used:
+ 6911 strings out of 494045
+ 106102 string characters out of 3145977
+ 190309 words of memory out of 3000000
+ 10092 multiletter control sequences out of 15000+200000
+ 34085 words of font info for 63 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 42i,6n,30p,1277b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on top.pdf (2 pages, 73119 bytes).
+PDF statistics:
+ 70 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+
