@@ -1,12 +1,18 @@
 \section{Introduction}
-Video content constitutes a dominant fraction in internet traffic today. Trends show that this is prone to increase in the next few years~\cite{}.
-Users prefer mobile devices for video streaming ~\cite{}, fueled by the increased throughput and reduced latency of mobile networks (LTE performs similar to Wi-Fi ~\cite{LTEPaper}).
+Video content constitutes a dominant fraction in internet traffic today. Trends show that this is prone to increase in the next few years~\cite{cisco_vid_stat}.
+Users prefer mobile devices for video streaming ~\cite{cisco_vid_stat}, fueled by the increased throughput and reduced latency of mobile networks (LTE performs similar to Wi-Fi ~\cite{LTEPaper}).
 Moreover, the cost of content delivery is also reducing due to ease of manageability and increased return of investment. As a result, many video content providers are increasing their mobile footprint in the recent years (e.g. Netflix, Youtube, Hulu). 
 They follow a subscription based cost model and in order to improve user engagement, they provide more attention towards optimizing user experience. The video streaming services adapt video delivery according to the client device and network conditions by adapting the bit rate of the content sent to the client and delivering the content in smaller chunks. 
 More preference is given to HTTP than specialized video streaming protocols due to its ease of adaptability in practice.  
 DASH is a popular protocol used by video content providers to adapt bit rate of the video used by the client. Despite many such efforts, a common case of user frustration is the battery drain while watching videos and it is more pronounced in LTE owing to the cellular radio interface. 
  
-In LTE networks, the Radio Resource Control (RRC) state machine ~\cite{LTEPaper} critically impacts the performance and power profiles of aplications. Various inactivity timers are used by network operators for saving radio power consumption by trading-off packet latency. Figure ~\ref{fig:LTERRCState} shows the RRC states in LTE. LTE has two RRC states - RRC\_CONNECTED and RRC\_IDLE depending on whether data is transferred or not. The RRC\_CONNECTED state has power conserving states including Short and Long DRX. In the DRX states the radio periodically polls the network for data and is idle otherwise. But the power consumed in the DRX states are still higher than that in the RRC\_IDLE state.
+\begin{figure}
+\centering
+\includegraphics[width=3in]{LTERRCState}
+\caption{RRC states in LTE}
+\label{fig:LTERRCState}
+\end{figure}
+In LTE networks, the Radio Resource Control (RRC) state machine ~\cite{LTEPaper} critically impacts the performance and power consumptions of aplications. Various inactivity timers are used by network operators for saving radio power consumption by trading-off packet latency. Figure ~\ref{fig:LTERRCState} shows the RRC states in LTE. LTE has two RRC states - RRC\_CONNECTED and RRC\_IDLE depending on whether data is being transferred or not. The RRC\_CONNECTED state has power conserving states including Short and Long DRX. In the DRX states the radio periodically polls the network for data and is idle otherwise. But the power consumed in the DRX states are still higher than that in the RRC\_IDLE state.
 Applications should intelligently schedule data transfer to obtain the best possible performance, energy and cost savings. 
 
 Given the advent of LTE, designing cellular-friendly applications has become ever more critical. In this front, application design should incorporate best practices to improve user experience, energy efficiency and reduce data cost. In video streaming applications, user experience is measured by metrics like join time (time before initial video frame is rendered), playback time (total time for video playback) determined by the buffering ratio. On one hand for better user experience, application should limit the playback time by buffering aggressively. On the other hand, to save on data transfer cost the application should buffer rather cautiously. Further, optimizing energy consumption requires in-depth understanding of the interaction of the application with the RRC state machine. While the popular video streaming services aim at improving user experience, there is very little focus on improving the energy efficiency of video streaming services. It is not clear whether the design approaches taken by popular video streaming services like adaptive bit rate and chunking would provide energy savings without being explicitly aware of the RRC state transitions.           
@@ -17,5 +23,5 @@ Our contributions in this paper are,
 Such a study is especially important and relavant in the context of mobile networks LTE inorder to understand the trade-offs in designing cellular-friendly streaming services. 
 \item We model the power characteristics of various streaming policies like adaptive bit rate and chunking, and identify the optimal streaming policy for a more efficient streaming experience in LTE. 
 \item 
-The success of the project lies on jointly optimizing energy, user experience and data cost for video streaming in LTE, 3G.      
+The success of the project lies on jointly optimizing energy, user experience and data cost for video streaming in LTE, 3G. 
 \end{itemize}
